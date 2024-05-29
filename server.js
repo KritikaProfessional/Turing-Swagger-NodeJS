@@ -16,7 +16,7 @@ const swaggerOptions = {
         info:{
             title:"Turing ECommerce API",
             version:"1.0.0",
-            description:"Official documentation about  Turing Ecommerce API."
+            description:"Official documentation about Turing Ecommerce API."
         },
         servers: [
             {
