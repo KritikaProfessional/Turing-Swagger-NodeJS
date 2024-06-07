@@ -4,12 +4,8 @@ const swaggerUi = require("swagger-ui-express");
 const knexFile = require("./knexfile");
 const routes = require("./router/routers");
 
-
-
 var app = express();
 app.use(express.json());
-
-
 
 const swaggerOptions = {
     swaggerDefinition:{

@@ -3,19 +3,30 @@
 module.exports = {
 
   development: {
+
     client: 'mysql',
     connection: {
-      database: 'Ecommerce_Task',
-      user:     'root',
-      password: 'Nav@gur1'
+      host: 'localhost',
+      user: 'root',
+      password: 'Kritika@123',
+      database: 'ecommerce_task'
     }
   },
+
+  // development: {
+  //   client: 'mysql',
+  //   connection: {
+  //     database: 'Ecommerce_Task',
+  //     user:     'root',
+  //     password: 'Nav@gur1'
+  //   }
+  // },
 
   staging: {
     client: 'postgresql',
     connection: {
       database: 'my_db',
-      user:     'username',
+      user: 'username',
       password: 'password'
     },
     pool: {
@@ -31,7 +42,7 @@ module.exports = {
     client: 'postgresql',
     connection: {
       database: 'my_db',
-      user:     'username',
+      user: 'username',
       password: 'password'
     },
     pool: {
